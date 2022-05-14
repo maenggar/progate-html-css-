@@ -3,13 +3,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Travel Ninja</title>
 </head>
 <body>
     <!-- Bagian Home-->
     <div class="Home"></div>
       <!-- navigasi -->
-      <nav></nav>
+      <nav class="topnav" id="myTopnav">
+        <a href="#Home" class="active">Home</a>
+        <a href="#Tour">Tour</a>
+        <a href="#Paket">Paket</a>
+        <a href="#Review">Review</a>
+        <a href="javascript:void(0);" class="icon" onclick="responsiveMenuIcon()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
       <!-- Hero-->
       <div class="Hero"></div>
     <!-- Bagian Tour-->
@@ -20,6 +30,6 @@
     <div class="Review"></div>
     <!-- Bagian Footer-->
     <div class="Footer"></div>
-
+ <script src="script.js"></script>
 </body>
 </html>
